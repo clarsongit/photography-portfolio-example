@@ -1,0 +1,31 @@
+.hero {
+  height: 800px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  padding: 25px;
+  background-image: url("./images/J159.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero h1 {
+  text-transform: uppercase;
+}
+
+.btn-branding {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #282323;
+  background: white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: white;
+  background: #282323;
+  border: 1px solid white;
+}
