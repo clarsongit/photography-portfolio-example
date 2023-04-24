@@ -44,3 +44,16 @@ h2 {
   background: #282323;
   border: 1px solid white;
 }
+
+.gallery {
+  height: 800px;
+  background: black;
+}
+
+.row img {
+  max-height: 200px;
+}
+
+.row {
+  padding: 25px;
+}
