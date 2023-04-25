@@ -1,3 +1,6 @@
+.active {
+  font-weight: bold;
+}
 .hero {
   height: 800px;
   text-align: center;
@@ -49,20 +52,58 @@ h2 {
   background: white;
 }
 
-ul {
+section ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 20px;
+  margin-bottom: 0;
 }
-li {
+
+section li {
   height: 40vh;
   flex-grow: 1;
   padding: 10px;
 }
-li img {
+
+section li img {
   max-height: 100%;
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+}
+
+nav {
+  padding: 10px 75px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  background: black;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline;
+  line-height: 80px;
+  margin-left: 35px;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+footer {
+  background: black;
+  height: 100px;
 }
