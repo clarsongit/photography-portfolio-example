@@ -5,7 +5,7 @@
   height: 800px;
   text-align: center;
   color: white;
-  padding: 175px 0;
+  padding: 200px 0;
   background-image: url("./images/J159.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,5 +105,24 @@ nav a:hover {
 
 footer {
   background: black;
-  height: 100px;
+  height: 75px;
+}
+
+footer p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f9f7fe;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
+
+footer a:hover {
+  color: #6c63ff;
 }
